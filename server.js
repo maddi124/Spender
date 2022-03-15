@@ -18,15 +18,15 @@ app.use(express.static("public"));
 
 mongoose.connect(MONGODB_URI, {
   useNewUrlParser: true,
-  // useFindAndModify: false
+  useUnifiedTopology: true,
+ // useFindAndModify: false
 });
 
 // routes
-app.use(require("./routes/api.js"));
+app.use(require("./routes/api"));
 
-app.listen(PORT, () => {
-  console.log(`App running on port ${PORT}!`);
-});
+mongoose.set('debug', true);
+app.listen(PORT, () => console.log(`🌍 Connected on localhost:${PORT}`));
 
 
 //https://maddi124.github.io/Spender/
