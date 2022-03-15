@@ -2,9 +2,12 @@ const APP_PREFIX = 'Spender-';
 const VERSION = 'version_01';
 const CACHE_NAME = APP_PREFIX + VERSION;
 const FILES_TO_CACHE = [
+"/",
 "./index.html",
 "./idb.js",
 "./index.js",
+"./style.css",
+"./icons/icon-192x192.png",
 
 ];
 self.addEventListener('fetch', function (e) {
