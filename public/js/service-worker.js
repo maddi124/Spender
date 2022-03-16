@@ -8,9 +8,11 @@ const FILES_TO_CACHE = [
 "./index.js",
 "./style.css",
 "./manifest.json",
-"./icons/icon-192x192.png",
+"./icons/icon-192x192.png"
 
 ];
+
+
 self.addEventListener('fetch', function (e) {
     console.log('fetch request : ' + e.request.url)
     e.respondWith(
