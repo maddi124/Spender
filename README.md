@@ -17,6 +17,7 @@ For this week challenge, We are given an budget tracker starter code. The app mu
 [Usage](#Usage)<br>
 [User Story](#User-Story)<br>
 [Acceptance Criteria](#Acceptance-Criteria)<br>
+[Deployment](#Deployment-to-Heroku-Using-MongoDB-Atlas)<br>
 [Credits](#Credits)<br>
 
 
@@ -77,7 +78,8 @@ THEN they will receive a notification that they have added an expense or deposit
 WHEN the user reestablishes an internet connection
 THEN the deposits or expenses added while they were offline are added to their transaction history and their totals are updated
 ```
-
+# Deployment to Heroku Using MongoDB Atlas
+https://guarded-atoll-94892.herokuapp.com/
 # Credits
 
 GitHub: https://github.com/maddi124<br>
