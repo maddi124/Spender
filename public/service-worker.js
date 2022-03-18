@@ -18,7 +18,6 @@ const FILES_TO_CACHE = [
   "../service-worker.js" 
 ];
 
-  
   // Cache resources
   self.addEventListener('install', function (e) {
     e.waitUntil(
@@ -29,8 +28,6 @@ const FILES_TO_CACHE = [
     )
   });
 
-
-  
   // Delete outdated caches
   self.addEventListener('activate', function (e) {
     e.waitUntil(
@@ -49,7 +46,7 @@ const FILES_TO_CACHE = [
           }
         }));
       })
-  )
+   )
  });
 
   self.addEventListener('fetch', function (e) {

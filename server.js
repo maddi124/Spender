@@ -28,5 +28,3 @@ app.use(require("./routes/api"));
 mongoose.set('debug', true);
 app.listen(PORT, () => console.log(`🌍 Connected on localhost:${PORT}`));
 
-
-//https://maddi124.github.io/Spender/
